@@ -1,0 +1,39 @@
+---
+name: New Farmers Market
+about: I have information about a new farmers market!
+title: "[New Vegan Company] <Name>"
+labels:
+  - 'farmers market'
+assignees: ''
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "Farmers Market Name"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      placeholder: "https://"
+    validations:
+      required: false
+  - type: input
+    id: phone
+    attributes:
+      label: "Phone Number"
+    validations:
+      required: false
+  - type: textarea
+    id: address
+    attributes:
+      label: "Address"
+    validations:
+      required: true
+  - type: textarea
+    id: hours
+    attributes:
+      label: "Hours"
+    validations:
+      required: true

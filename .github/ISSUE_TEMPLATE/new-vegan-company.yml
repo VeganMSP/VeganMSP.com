@@ -1,0 +1,27 @@
+---
+name: New Vegan Company
+about: I have information about a new vegan company!
+title: "[New Vegan Company] <Name>"
+labels:
+  - 'vegan company'
+assignees: ''
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "Vegan Company Name"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Vegan Company Website"
+      placeholder: "https://"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+    validations:
+      required: true

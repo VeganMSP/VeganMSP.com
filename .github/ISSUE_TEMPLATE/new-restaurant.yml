@@ -1,0 +1,31 @@
+name: New Restaurant
+about: I have information about a new restaurant!
+title: "[New Restaurant] <Name>"
+labels:
+  - 'restaurant'
+assignees: ''
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "Restaurant Name"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: "Restaurant Location (City)"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Restaurant Website"
+    validations: required:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "If you feel so inclined, please write a description of the restaurant!"
+    validations:
+      required: false
