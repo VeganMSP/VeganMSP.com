@@ -1,9 +1,8 @@
 name: New Restaurant
-about: I have information about a new restaurant!
+description: I have information about a new restaurant!
 title: "[New Restaurant] <Name>"
 labels:
   - 'restaurant'
-assignees: ''
 body:
   - type: input
     id: name
@@ -21,7 +20,8 @@ body:
     id: website
     attributes:
       label: "Restaurant Website"
-    validations: required:
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:

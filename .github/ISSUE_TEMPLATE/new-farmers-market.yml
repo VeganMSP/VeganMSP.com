@@ -1,10 +1,9 @@
 ---
 name: New Farmers Market
-about: I have information about a new farmers market!
+description: I have information about a new farmers market!
 title: "[New Vegan Company] <Name>"
 labels:
   - 'farmers market'
-assignees: ''
 body:
   - type: input
     id: name

@@ -1,10 +1,9 @@
 ---
 name: New Vegan Company
-about: I have information about a new vegan company!
+description: I have information about a new vegan company!
 title: "[New Vegan Company] <Name>"
 labels:
   - 'vegan company'
-assignees: ''
 body:
   - type: input
     id: name

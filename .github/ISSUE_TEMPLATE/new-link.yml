@@ -1,10 +1,9 @@
 ---
 name: New Link or Group
-about: I have information about a new link or group!
+description: I have information about a new link or group!
 title: "[New Vegan Company] <Name>"
 labels:
   - 'link/group'
-assignees: ''
 body:
   - type: input
     id: name
