@@ -1,7 +1,7 @@
 ---
 name: New Link or Group
 description: I have information about a new link or group!
-title: "[New Vegan Company] <Name>"
+title: "[New Link] <Name>"
 labels:
   - 'link/group'
 body:

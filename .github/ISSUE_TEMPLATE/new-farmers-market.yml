@@ -1,7 +1,7 @@
 ---
 name: New Farmers Market
 description: I have information about a new farmers market!
-title: "[New Vegan Company] <Name>"
+title: "[New Farmers Market] <Name>"
 labels:
   - 'farmers market'
 body:
