@@ -1,0 +1,27 @@
+---
+name: New Link or Group
+about: I have information about a new link or group!
+title: "[New Vegan Company] <Name>"
+labels:
+  - 'link/group'
+assignees: ''
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "Link Name"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+    validations:
+      required: true
